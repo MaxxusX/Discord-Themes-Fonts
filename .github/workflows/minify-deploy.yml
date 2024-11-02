@@ -24,17 +24,22 @@ jobs:
       - name: Install Minifier
         shell: "bash"
         working-directory: .
-        run: 
+        run: |
+          sudo apt-get update
+          sudo apt-get install minify
 
       - name: Minify
         shell: "bash"
         working-directory: .
-        run: minify --json-keep-numbers --json-precision 0 --recursive --sync --match "*.json" --output dist/ fonts themes
+        run: |
+          minify --json-keep-numbers --json-precision 0 --recursive --sync --match "*.json" --output dist/ fonts themes
+          ls
+          ls dist/
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist/"
+          path: "dist/"
 
   deploy:
     needs: minify
