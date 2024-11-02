@@ -31,7 +31,7 @@ jobs:
       - name: Minify
         shell: "bash"
         working-directory: .
-        run: minify -v -v --json-keep-numbers --json-precision 0 --recursive --sync --match=*.json --output dist/ Fonts Themes
+        run: minify -v -v --json-keep-numbers --json-precision 0 --recursive --sync --output dist/ Fonts Themes
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
