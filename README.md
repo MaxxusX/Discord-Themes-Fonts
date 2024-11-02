@@ -12,7 +12,7 @@ Meloso is an easygoing typeface. It has a playful and organic feel that has its 
 
 [Link to Custom Font JSON](https://maxxusx.github.io/Discord-Themes-Fonts/Fonts/Quicksand.json)
 
-Quicksand is a display sans serif with rounded terminals. The project was initiated by Andrew Paglinawan in 2008 using geometric shapes as a core foundation. It is designed for display purposes but kept legible enough to use in small sizes as well.
+Quicksand is a display sans-serif with rounded terminals. The project was initiated by Andrew Paglinawan in 2008 using geometric shapes as a core foundation. It is designed for display purposes but kept legible enough to use in small sizes as well.
 
 #### License
 Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily/), with Reserved Font Name "Quicksand".<br>
