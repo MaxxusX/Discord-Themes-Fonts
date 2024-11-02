@@ -15,7 +15,7 @@ Meloso is an easygoing typeface. It has a playful and organic feel that has its 
 Quicksand is a display sans serif with rounded terminals. The project was initiated by Andrew Paglinawan in 2008 using geometric shapes as a core foundation. It is designed for display purposes but kept legible enough to use in small sizes as well.
 
 #### License
-Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily/), with Reserved Font Name "Quicksand".
+Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily/), with Reserved Font Name "Quicksand".<br>
 This Font Software is licensed under the [SIL Open Font License, Version 1.1](https://openfontlicense.org/open-font-license-official-text/). This license is available with an FAQ at: https://openfontlicense.org/
 
 ## Themes
