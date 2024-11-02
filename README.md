@@ -4,13 +4,13 @@
 
 ### Meloso
 
-[Link to Custom Font JSON](https://maxxusx.github.io/Discord-Themes-Fonts/Fonts/Meloso.json)
+[Link to Custom Font JSON](https://maxxusx.github.io/Discord-Themes-Fonts/Fonts/Meloso/Meloso.json)
 
 Meloso is an easygoing typeface. It has a playful and organic feel that has its own hand-drawn charm while still being incredibly legible due to its simple shapes and high x-height. It has the unique ability to stand alone as a title text or work in small paragraph form. It's the perfect way to bring the friendly feel of an "imperfect" and slightly rounded font into your next project.
 
 ### Quicksand
 
-[Link to Custom Font JSON](https://maxxusx.github.io/Discord-Themes-Fonts/Fonts/Quicksand.json)
+[Link to Custom Font JSON](https://maxxusx.github.io/Discord-Themes-Fonts/Fonts/Quicksand/Quicksand.json)
 
 Quicksand is a display sans-serif with rounded terminals. The project was initiated by Andrew Paglinawan in 2008 using geometric shapes as a core foundation. It is designed for display purposes but kept legible enough to use in small sizes as well.
 
