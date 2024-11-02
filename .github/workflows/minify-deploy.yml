@@ -1,0 +1,48 @@
+name: Minify and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Minifier
+        shell: "bash"
+        working-directory: .
+        run: 
+
+      - name: Minify
+        shell: "bash"
+        working-directory: .
+        run: minify --json-keep-numbers --json-precision 0 --recursive --sync --match "*.json" --output dist/ fonts themes
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./dist/"
+
+  deploy:
+    needs: minify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
